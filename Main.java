@@ -29,6 +29,8 @@ public class Main {
 		long F = factorial(N);
 		int zeros = zeros(F);
 		showResult(N, zeros);
+		System.out.println(F);
+		System.out.println("-");
 	}
 
 	public static void showResult(final int N, int zeros) {
